@@ -11,7 +11,7 @@ function App() {
       <div className="main">
         <h2 className="main-header">React Crud Operations</h2>
         <div>
-          <Route exact path="/create" component={Create} />
+          <Route exact path="/" component={Create} />
           <Route exact path="/read" component={Read} />
           <Route exact path="/update" component={Update} />
         </div>
